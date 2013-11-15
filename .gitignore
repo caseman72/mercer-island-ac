@@ -14,6 +14,6 @@ sitemap.xml.gz
 
 .rcs
 
-af-update-bbl.sh
+af-update-miac.sh
 wp-config.php
 wp-content/w3tc-config/master.php

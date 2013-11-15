@@ -13,7 +13,7 @@ RedirectMatch 403 /\..*$
 	RewriteRule ^(.*)$ - [F,L]
 
 	# Uploaded content
-	RewriteRule ^/?wp-content/uploads/(.*)$ http://bblfiles.s3.amazonaws.com/wp-content/uploads/$1 [L]
+	RewriteRule ^/?wp-content/uploads/(.*)$ http://miacfiles.s3.amazonaws.com/wp-content/uploads/$1 [L]
 
 	# BPSQSE BPS QUERY STRING EXPLOITS
 	# The libwww-perl User Agent is forbidden - Many bad bots use libwww-perl modules, but some good bots use it too.

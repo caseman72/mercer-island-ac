@@ -1,4 +1,4 @@
-.htaccess
+#.htaccess
 wp-config.php
 wp-content/uploads/
 wp-content/blogs.dir/
@@ -11,3 +11,9 @@ sitemap.xml
 wp-content/cache/
 wp-content/backups/
 sitemap.xml.gz
+
+.rcs
+
+af-update-bbl.sh
+wp-config.php
+wp-content/w3tc-config/master.php

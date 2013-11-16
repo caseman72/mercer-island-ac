@@ -9,9 +9,11 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
-	</header><!-- .entry-header -->
+	<?php if(strpos(get_the_title(), '-') === false || strpos(get_the_title(), ' ') !== false) : ?>
+		<header class="entry-header">
+			<h1 class="entry-title"><?php the_title(); ?></h1>
+		</header><!-- .entry-header -->
+	<?php endif; ?>
 
 	<?php if(has_post_thumbnail()) : ?>
 		<div class="entry-thumbnail">
